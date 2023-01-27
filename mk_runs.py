@@ -41,7 +41,7 @@ pars1['G12-42911']   = ""
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
-pars2['G09-44907']   = ""
-pars2['G12-42911']   = ""
+pars2['G09-44907']   = "srdp=1 admit=0"
+pars2['G12-42911']   = "srdp=1 admit=0"
 
 runs.mk_runs(project, on, pars1, pars2)
