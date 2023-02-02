@@ -32,17 +32,25 @@ on['G09-44907'] = [ 104042, 104043, 104044, 104046, 104047,     # jan 26
                     
 on['G12-42911'] = [ 104100, 104101, 104102, 104104, 104105, 104106,    # jan 26
                     104225, 104226, 104227, 104229, 104230, 104231,    # jan 27
-                    104401, 104402, 104403]                            # jan 31 (power failure)
+                    104401, 104402, 104403,                            # jan 31 (power failure)
+                    104459, 104460, 104461, 104463, 104464, 104465,
+                    104467, 104468, 104469, 104487, 104488, 104489,
+                    104491, 104492, 104493, 104495, 104496, 104497,
+                    104500, 104501, 104502]                            # feb 2
 
+
+on['NGP-78659'] = [ 104506, 104507, 104508]                            # feb 2
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 pars1['G09-44907']   = ""
 pars1['G12-42911']   = ""
+pars1['NGP-78659']   = ""
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
 pars2['G09-44907']   = "srdp=1 admit=0"
 pars2['G12-42911']   = "srdp=1 admit=0"
+pars2['NGP-78659']   = "srdp=1 admit=0"
 
 runs.mk_runs(project, on, pars1, pars2)
