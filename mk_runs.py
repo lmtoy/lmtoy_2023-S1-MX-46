@@ -59,10 +59,10 @@ on['NGP-78659']  = [ 104506, 104507, 104508,                            # feb 2
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
-pars1['G09-44907']   = ""
+pars1['G09-44907']   = "speczoom=78,3"
 pars1['G12-42911']   = ""
 pars1["NGP-115876"]  = ""
-pars1["NGP-131281"]  = ""
+pars1["NGP-131281"]  = "speczoom=89,3"
 pars1['NGP-78659']   = ""
 
 #        common parameters per source on subsequent runs (run1b, run2b)
