@@ -83,4 +83,5 @@ pars2["NGP-115876"]  = "srdp=1 admit=0"
 pars2["NGP-131281"]  = "srdp=1 admit=0"
 pars2['NGP-78659']   = "srdp=1 admit=0"
 
-runs.mk_runs(project, on, pars1, pars2)
+if __name__ == '__main__':
+    runs.mk_runs(project, on, pars1, pars2)
