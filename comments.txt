@@ -5,14 +5,15 @@
 104095 .
 104096 .
 #
-104101 suspect
+104101 bad
+104105 bad
 #
 104401 .
 104402 .
 104403 .
 #
-104042_104665 	possible detection
-104100_104502 	unclear
+104042_104665 	detection
+104100_104502 	unclear, removed 104101 and 104105 which did not greatly improve things
 104582_104618   unclear
 104621_104640 	detection
 104506_104508   unclear

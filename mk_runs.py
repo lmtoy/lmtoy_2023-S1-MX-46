@@ -31,7 +31,7 @@ on['G09-44907'] = [ 104042, 104043, 104044, 104046, 104047,     # jan 26
                     104176, 104177, 104178,
                     104665]                                     # feb 5
                    
-on['G12-42911'] = [ 104100, 104101, 104102, 104104, 104105, 104106,    # jan 26
+on['G12-42911'] = [ 104100, -104101, 104102, 104104, -104105, 104106,    # jan 26
                     104225, 104226, 104227, 104229, 104230, 104231,    # jan 27
                     104401, 104402, 104403,                            # jan 31 (power failure)
                     104459, 104460, 104461, 104463, 104464, 104465,
@@ -70,10 +70,10 @@ on['NGP-78659']  = [ 104506, 104507, 104508,                            # feb 2
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 pars1['G09-44907']   = "speczoom=78,3"
-pars1['G12-42911']   = ""
+pars1['G12-42911']   = "speczoom=93,4 badcb=0/2,2/2"
 pars1["NGP-115876"]  = "speczoom=89,3"
 pars1["NGP-131281"]  = "speczoom=89,3"
-pars1['NGP-78659']   = ""
+pars1['NGP-78659']   = "speczoom=78,3 badcb=0/2,3/3,3/4"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
