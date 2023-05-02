@@ -1,16 +1,6 @@
-104090 .
-104091 .
-104092 .
-104094 .
-104095 .
-104096 .
 #
-104101 bad
-104105 bad
-#
-104401 .
-104402 .
-104403 .
+104101 BAD
+104105 BAD
 #
 104042_104665 	detection
 104100_104502 	unclear, removed 104101 and 104105 which did not greatly improve things
