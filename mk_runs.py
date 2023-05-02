@@ -1,21 +1,11 @@
 #! /usr/bin/env python
 #
-#   script generator for project="2021-S1-US-3"
 #
-#   lmtinfo.py grep US-3 Science Map | awk '{print $2}' | sort
-
 
 import os
 import sys
 
-# in prep of the new lmtoy module
-try:
-    lmtoy = os.environ['LMTOY']
-    sys.path.append(lmtoy + '/lmtoy')
-    import runs
-except:
-    print("No LMTOY with runs.py")
-    sys.exit(0)
+from lmtoy import runs
 
 project="2023-S1-MX-46"
 
@@ -31,7 +21,7 @@ on['G09-44907'] = [ 104042, 104043, 104044, 104046, 104047,     # jan 26
                     104176, 104177, 104178,
                     104665]                                     # feb 5
                    
-on['G12-42911'] = [ 104100, -104101, 104102, 104104, -104105, 104106,    # jan 26
+on['G12-42911'] = [ 104100,-104101, 104102, 104104,-104105, 104106,    # jan 26
                     104225, 104226, 104227, 104229, 104230, 104231,    # jan 27
                     104401, 104402, 104403,                            # jan 31 (power failure)
                     104459, 104460, 104461, 104463, 104464, 104465,
