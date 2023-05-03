@@ -1,15 +1,20 @@
 #
 104101 BAD
 104105 BAD
+#      date_obs="2023-01-31T10:00:15"    inttime=0 
 104405 incomplete inttime=0?
 104582 missing zoomed
 104595 missing zoomed
+#      date_obs="2023-02-08T09:58:06"    inttime=220.16 
 104988 incomplete inttime=0?
 
 
 #
-104042_104665 	detection
-104100_104502 	unclear     # 104101 and 104105 which did not greatly improve things
+104042_104665 	detection 77.97 GHz
+104100_104502 	detection 97.25 GHz
 104582_104618   unclear
+104582_104721   detection 89.5 GHz
 104621_104640 	[missing figs] detection
 104506_104508   unclear
+104621_105093   detection 89.16 GHz
+104506_105116   detection 77.98 GHz
