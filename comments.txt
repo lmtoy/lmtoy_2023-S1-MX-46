@@ -1,9 +1,15 @@
 #
 104101 BAD
 104105 BAD
+104405 inttime=0?
+104582 missing zoomed
+104595 missing zoomed
+104988 inttime=0?
+
+
 #
 104042_104665 	detection
-104100_104502 	unclear, removed 104101 and 104105 which did not greatly improve things
+104100_104502 	unclear     # 104101 and 104105 which did not greatly improve things
 104582_104618   unclear
-104621_104640 	detection
+104621_104640 	[missing figs] detection
 104506_104508   unclear
