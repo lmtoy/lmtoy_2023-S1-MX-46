@@ -3,8 +3,10 @@
 104105 BAD
 #      date_obs="2023-01-31T10:00:15"    inttime=0 
 104405 incomplete inttime=0?
-104582 missing zoomed
-104595 missing zoomed
+
+# 104582 missing zoomed = fixed
+# 104595 missing zoomed = fixed
+
 #      date_obs="2023-02-08T09:58:06"    inttime=220.16 
 104988 incomplete inttime=0?
 
