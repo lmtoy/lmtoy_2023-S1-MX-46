@@ -1,10 +1,10 @@
 #
 104101 BAD
 104105 BAD
-104405 inttime=0?
+104405 incomplete inttime=0?
 104582 missing zoomed
 104595 missing zoomed
-104988 inttime=0?
+104988 incomplete inttime=0?
 
 
 #
