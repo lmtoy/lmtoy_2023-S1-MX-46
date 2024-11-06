@@ -57,6 +57,10 @@ on['NGP-78659']  = [ 104506, 104507, 104508,                            # feb 2
                      105105, 105106, 105107, 105110, 105111, 105112,
                      105114, 105115, 105116,]                           # feb 9
 
+on["SGP-396540"] = [ 121763, 121764, 121765, 121767, 121768, 121769,    # nov 5
+                     121772, 121773, 121774,]
+
+
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 pars1['G09-44907']   = "speczoom=78,3"
@@ -64,6 +68,7 @@ pars1['G12-42911']   = "speczoom=93,4 badcb=0/2,2/2"
 pars1["NGP-115876"]  = "speczoom=89,3"
 pars1["NGP-131281"]  = "speczoom=89,3"
 pars1['NGP-78659']   = "speczoom=78,3 badcb=0/2,3/3,3/4"
+pars1["SGP-396540"]  = ""
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
@@ -72,6 +77,7 @@ pars2['G12-42911']   = "srdp=1 admit=0"
 pars2["NGP-115876"]  = "srdp=1 admit=0"
 pars2["NGP-131281"]  = "srdp=1 admit=0"
 pars2['NGP-78659']   = "srdp=1 admit=0"
+pars2["SGP-396540"]  = "srdp=1 admit=0"
 
 if __name__ == '__main__':
     runs.mk_runs(project, on, pars1, pars2)
