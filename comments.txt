@@ -19,9 +19,9 @@
 104506_105116   detection 77.98 GHz
 121763_123903 	unclear?
 
-121772	QAFAIL instrument failure
-121773	QAFAIL instrument failure
-121774	QAFAIL instrument failure
+121772	QAFAIL instrument failure #qagrade=-2
+121773	QAFAIL instrument failure #qagrade=-2
+121774	QAFAIL instrument failure #qagrade=-2
 
 122357	removed bad chassis/board 3/0 #badcb=3/0
 122363  removed bad chassis/board 3/0 #badcb=3/0
